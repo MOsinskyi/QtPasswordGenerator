@@ -14,7 +14,9 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(password_generator_qt main.cpp)
+add_executable(password_generator_qt main.cpp
+        main-window.cc
+        main-window.h)
 target_link_libraries(password_generator_qt
         Qt::Core
         Qt::Gui
