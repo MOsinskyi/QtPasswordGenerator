@@ -50,7 +50,7 @@ cmake_ninja_workdir = A$:/password_generator_qt/cmake-build-debug/
 build cmake_object_order_depends_target_password_generator_qt: phony || password_generator_qt_autogen password_generator_qt_autogen/mocs_compilation.cpp password_generator_qt_autogen/timestamp password_generator_qt_autogen_timestamp_deps
 
 build CMakeFiles/password_generator_qt.dir/password_generator_qt_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__password_generator_qt_unscanned_Debug A$:/password_generator_qt/cmake-build-debug/password_generator_qt_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_password_generator_qt
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\password_generator_qt.dir\password_generator_qt_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem A:/password_generator_qt/cmake-build-debug/password_generator_qt_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtGui -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets
@@ -58,7 +58,7 @@ build CMakeFiles/password_generator_qt.dir/password_generator_qt_autogen/mocs_co
   OBJECT_FILE_DIR = CMakeFiles\password_generator_qt.dir\password_generator_qt_autogen
 
 build CMakeFiles/password_generator_qt.dir/src/main.cpp.obj: CXX_COMPILER__password_generator_qt_unscanned_Debug A$:/password_generator_qt/src/main.cpp || cmake_object_order_depends_target_password_generator_qt
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\password_generator_qt.dir\src\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem A:/password_generator_qt/cmake-build-debug/password_generator_qt_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtGui -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets
@@ -66,12 +66,19 @@ build CMakeFiles/password_generator_qt.dir/src/main.cpp.obj: CXX_COMPILER__passw
   OBJECT_FILE_DIR = CMakeFiles\password_generator_qt.dir\src
 
 build CMakeFiles/password_generator_qt.dir/src/main-window.cc.obj: CXX_COMPILER__password_generator_qt_unscanned_Debug A$:/password_generator_qt/src/main-window.cc || cmake_object_order_depends_target_password_generator_qt
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\password_generator_qt.dir\src\main-window.cc.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -isystem A:/password_generator_qt/cmake-build-debug/password_generator_qt_autogen/include -isystem C:/Qt/6.7.1/mingw_64/include/QtCore -isystem C:/Qt/6.7.1/mingw_64/include -isystem C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.1/mingw_64/include/QtGui -isystem C:/Qt/6.7.1/mingw_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles\password_generator_qt.dir
   OBJECT_FILE_DIR = CMakeFiles\password_generator_qt.dir\src
+
+build CMakeFiles/password_generator_qt.dir/resources.rc.obj: RC_COMPILER__password_generator_qt_unscanned_Debug A$:/password_generator_qt/resources.rc || cmake_object_order_depends_target_password_generator_qt
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\password_generator_qt.dir\resources.rc.obj.d
+  INCLUDES = -I A:/password_generator_qt/cmake-build-debug/password_generator_qt_autogen/include -I C:/Qt/6.7.1/mingw_64/include/QtCore -I C:/Qt/6.7.1/mingw_64/include -I C:/Qt/6.7.1/mingw_64/mkspecs/win32-g++ -I C:/Qt/6.7.1/mingw_64/include/QtGui -I C:/Qt/6.7.1/mingw_64/include/QtWidgets
+  OBJECT_DIR = CMakeFiles\password_generator_qt.dir
+  OBJECT_FILE_DIR = CMakeFiles\password_generator_qt.dir
 
 
 # =============================================================================
@@ -81,9 +88,10 @@ build CMakeFiles/password_generator_qt.dir/src/main-window.cc.obj: CXX_COMPILER_
 #############################################
 # Link the executable password_generator_qt.exe
 
-build password_generator_qt.exe: CXX_EXECUTABLE_LINKER__password_generator_qt_Debug CMakeFiles/password_generator_qt.dir/password_generator_qt_autogen/mocs_compilation.cpp.obj CMakeFiles/password_generator_qt.dir/src/main.cpp.obj CMakeFiles/password_generator_qt.dir/src/main-window.cc.obj | C$:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Core.a || password_generator_qt_autogen password_generator_qt_autogen_timestamp_deps
+build password_generator_qt.exe: CXX_EXECUTABLE_LINKER__password_generator_qt_Debug CMakeFiles/password_generator_qt.dir/password_generator_qt_autogen/mocs_compilation.cpp.obj CMakeFiles/password_generator_qt.dir/src/main.cpp.obj CMakeFiles/password_generator_qt.dir/src/main-window.cc.obj CMakeFiles/password_generator_qt.dir/resources.rc.obj | C$:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.1/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a || password_generator_qt_autogen password_generator_qt_autogen_timestamp_deps
   FLAGS = -g
-  LINK_LIBRARIES = C:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_FLAGS = -mwindows
+  LINK_LIBRARIES = C:/Qt/6.7.1/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\password_generator_qt.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D A:\password_generator_qt\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E make_directory A:/password_generator_qt/cmake-build-debug/plugins/platforms/ && cd /D A:\password_generator_qt\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Qt/6.7.1/mingw_64/plugins/platforms/qwindows.dll A:/password_generator_qt/cmake-build-debug/plugins/platforms/ && cd /D A:\password_generator_qt\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Qt/6.7.1/mingw_64/bin/Qt6Core.dll A:/password_generator_qt/cmake-build-debug && cd /D A:\password_generator_qt\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Qt/6.7.1/mingw_64/bin/Qt6Gui.dll A:/password_generator_qt/cmake-build-debug && cd /D A:\password_generator_qt\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Qt/6.7.1/mingw_64/bin/Qt6Widgets.dll A:/password_generator_qt/cmake-build-debug"
   PRE_LINK = cd .

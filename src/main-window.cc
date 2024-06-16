@@ -10,9 +10,9 @@ const QString kOptions[] = {
     "QWERTYUIOPASDFGHJKLZXCVBNM",
     "qwertyuiopasdfghjklzxcvbnm",
     "0123456789",
-    "-",
-    "_",
-    " ",
+    "-----",
+    "_____",
+    "     ",
     "!@#$%^&*:;?.,~`/",
     "(){}[]<>"
 };
