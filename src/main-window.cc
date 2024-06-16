@@ -1,4 +1,4 @@
-#include "main-window.h"
+#include "../main-window.h"
 #include <QtWidgets>
 
 enum PasswordLength {
