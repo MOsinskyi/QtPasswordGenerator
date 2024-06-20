@@ -16,8 +16,10 @@ find_package(Qt6 COMPONENTS
 
 add_executable(password_generator_qt WIN32 src/main.cpp
         src/main-window.cc
-        main-window.h
-        resources.rc)
+        headers/main-window.h
+        resources.rc
+        src/colored-progressbar.cc
+        headers/colored-progressbar.h)
 target_link_libraries(password_generator_qt
         Qt::Core
         Qt::Gui

@@ -1,4 +1,4 @@
-#include "../main-window.h"
+#include "../headers/main-window.h"
 #include <QtWidgets>
 
 enum PasswordLength {
@@ -91,7 +91,7 @@ void MainWindow::InitUserInterface() {
   generated_password_field_ = new QLineEdit;
   generated_password_field_->setReadOnly(true);
 
-  password_strength_ = new QProgressBar;
+  password_strength_ = new ColoredProgressBar;
   password_strength_->setAlignment(Qt::AlignCenter);
 
   copy_password_btn_ = new QPushButton("Copy password");

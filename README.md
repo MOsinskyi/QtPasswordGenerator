@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/MOsinskyi/QtPasswordGenerator)
 ![Static Badge](https://img.shields.io/badge/c%2B%2B-17-blue)
 ![Static Badge](https://img.shields.io/badge/Qt-6.7.1-green)
-![Static Badge](https://img.shields.io/badge/version-1.0-brightgreen)
+![Static Badge](https://img.shields.io/badge/version-1.1-brightgreen)
 
 
 # QtPasswordGenerator
@@ -23,9 +23,9 @@ character sets.
 - Simple and intuitive graphical interface
 
 ## Screenshots
-|       Dark theme        |         Light theme         |
-|:-----------------------:|:---------------------------:|
-| ![img.png](img/img.png) | ![img_1.png](img/img_1.png) |
+![img_1.png](img/screenshot.png)
+
+![img.png](img/screenshot2.png)
 
 _(The theme automatically adjusts to the system)_
 
@@ -75,3 +75,5 @@ This project is licensed under the [MIT License](https://github.com/MOsinskyi/Qt
 Author: [MOsinskyi](https://github.com/MOsinskyi)
 
 E-mail: [maximosinskiy@gmail.com](mailto::maximosinskiy@gmail.com)
+
+<img height="150" src="img/made-in-ukraine.png" width="150"/>

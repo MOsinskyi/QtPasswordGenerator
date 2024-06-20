@@ -2,13 +2,14 @@
 #define PASSWORD_GENERATOR_QT__MAIN_WINDOW_H_
 
 #include <QDialog>
+#include "colored-progressbar.h"
 
 class QLabel;
 class QSpinBox;
 class QCheckBox;
 class QLineEdit;
 class QPushButton;
-class QProgressBar;
+class ColoredProgressBar;
 
 class MainWindow : public QDialog {
  Q_OBJECT
@@ -31,7 +32,7 @@ class MainWindow : public QDialog {
   QLabel *generated_password_lbl_;
   QLineEdit *generated_password_field_;
 
-  QProgressBar *password_strength_;
+  ColoredProgressBar *password_strength_;
 
   QPushButton *copy_password_btn_;
 

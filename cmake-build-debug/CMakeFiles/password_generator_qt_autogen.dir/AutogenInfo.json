@@ -223,9 +223,15 @@
 	"HEADERS" : 
 	[
 		[
-			"A:/password_generator_qt/main-window.h",
+			"A:/password_generator_qt/headers/colored-progressbar.h",
 			"MU",
-			"EWIEGA46WW/moc_main-window.cpp",
+			"K6S233IZAZ/moc_colored-progressbar.cpp",
+			null
+		],
+		[
+			"A:/password_generator_qt/headers/main-window.h",
+			"MU",
+			"K6S233IZAZ/moc_main-window.cpp",
 			null
 		]
 	],
@@ -300,6 +306,7 @@
 	"SETTINGS_FILE" : "A:/password_generator_qt/cmake-build-debug/CMakeFiles/password_generator_qt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "A:/password_generator_qt/src/colored-progressbar.cc", "MU", null ],
 		[ "A:/password_generator_qt/src/main-window.cc", "MU", null ],
 		[ "A:/password_generator_qt/src/main.cpp", "MU", null ]
 	],
