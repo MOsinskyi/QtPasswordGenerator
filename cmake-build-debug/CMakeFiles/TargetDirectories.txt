@@ -1,5 +1,5 @@
-A:/password_generator_qt/cmake-build-debug/CMakeFiles/password_generator_qt.dir
-A:/password_generator_qt/cmake-build-debug/CMakeFiles/edit_cache.dir
-A:/password_generator_qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-A:/password_generator_qt/cmake-build-debug/CMakeFiles/password_generator_qt_autogen_timestamp_deps.dir
-A:/password_generator_qt/cmake-build-debug/CMakeFiles/password_generator_qt_autogen.dir
+/home/maksym/CLionProjects/QtPasswordGenerator/cmake-build-debug/CMakeFiles/password_generator_qt.dir
+/home/maksym/CLionProjects/QtPasswordGenerator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maksym/CLionProjects/QtPasswordGenerator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maksym/CLionProjects/QtPasswordGenerator/cmake-build-debug/CMakeFiles/password_generator_qt_autogen_timestamp_deps.dir
+/home/maksym/CLionProjects/QtPasswordGenerator/cmake-build-debug/CMakeFiles/password_generator_qt_autogen.dir
