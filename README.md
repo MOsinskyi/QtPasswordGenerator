@@ -23,11 +23,12 @@ character sets.
 - Simple and intuitive graphical interface
 
 ## Screenshots
+### Windows
 ![img_1.png](img/screenshot.png)
 
 ![img.png](img/screenshot2.png)
-
-_(The theme automatically adjusts to the system)_
+### Linux (Fedora)
+![img.png](img.png)
 
 ## Requirements
 - Qt 5.15 or newer
